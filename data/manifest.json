@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "车辆工程-2025",
+  "major": "车辆工程",
+  "major_code": "080207",
+  "edition": "2025",
+  "institution": "沧州交通学院",
+  "college_doc_label": "机械与动力工程学院",
+  "program_sha256": "e8e4544ea884d0063e47380e763a2a47a7996f2454ef1126f4a9902309a80388",
+  "counts": {
+    "training_objectives": 4,
+    "graduation_requirements": 11,
+    "indicators": 23,
+    "courses": 111,
+    "course_groups": 11,
+    "relations": 348
+  },
+  "relation_types": {
+    "requirement_supports_objective": 22,
+    "course_supports_indicator": 326
+  },
+  "aggregates": {
+    "credits_display": "184+5",
+    "curricular_credits": 184,
+    "second_classroom_credits": 5,
+    "total_hours": 2944,
+    "practical_credits": 67.38
+  },
+  "validation": {
+    "errors": 0,
+    "advisory_warnings": 41
+  },
+  "source": {
+    "pdf_file": "evidence/06-机械学院-车辆工程专业25版人才培养方案.pdf",
+    "docx_file": "evidence/06-机械学院-车辆工程专业25版人才培养方案.docx",
+    "pdf_sha256": "2bd917ea2daa15f9a9e33b10f9e9df75714ff96f10ee7950e817bc08b044af15",
+    "page_count": 28
+  },
+  "boundary": "校验结果只说明结构和既定规则检查状态，不表示培养质量、课程达成或官方审核结论。本仓库保留原始 DOCX/PDF 作为证据，属内部私有资料。"
+}

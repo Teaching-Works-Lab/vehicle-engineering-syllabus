@@ -1,0 +1,12 @@
+{
+  "generated_skill": "vehicle-engineering-syllabus",
+  "factory_commit": "f5bea67fb722e3d5b0444b696b2a450dceba7ee8",
+  "template_digest": "sha256:76888939f7352f5eb7ddb00f42860e5672541818fdccef6c1a77f89cbbca2ac5",
+  "template_digest_algorithm": "sha256(canonical JSON array of sorted {path, sha256} entries; UTF-8; sort_keys=true; separators=(',', ':'); __pycache__ and *.pyc excluded)",
+  "source_program": "data/program.json",
+  "source_schema_version": "1.0.0",
+  "template": "syllabus-skill",
+  "validator": "curriculum_core.validation.validate_program",
+  "error_count": 0,
+  "warning_count": 41
+}

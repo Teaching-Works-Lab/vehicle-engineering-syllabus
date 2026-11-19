@@ -1,0 +1,34 @@
+{
+  "name": "vehicle-engineering-syllabus",
+  "version": "0.1.0",
+  "description": "Query reviewable Vehicle Engineering training-program data for syllabus preparation.",
+  "author": {
+    "name": "Teaching Works Lab",
+    "url": "https://github.com/Teaching-Works-Lab"
+  },
+  "homepage": "https://github.com/Teaching-Works-Lab/vehicle-engineering-syllabus",
+  "repository": "https://github.com/Teaching-Works-Lab/vehicle-engineering-syllabus",
+  "keywords": [
+    "education",
+    "vehicle-engineering",
+    "training-program",
+    "syllabus"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Vehicle Engineering Syllabus",
+    "shortDescription": "Query verified Vehicle Engineering 2025 training-program data for syllabi.",
+    "longDescription": "Query course facts, official indicator support, and derived training-objective traces from the reviewable Vehicle Engineering 2025 training-program dataset.",
+    "developerName": "Teaching Works Lab",
+    "category": "Education",
+    "capabilities": [
+      "Query official course fields",
+      "Trace course and graduation-requirement relations",
+      "Prepare sourced syllabus inputs"
+    ],
+    "defaultPrompt": [
+      "Query this course and separate official, derived, and pending syllabus fields.",
+      "Prepare sourced syllabus inputs for this Vehicle Engineering course."
+    ]
+  }
+}

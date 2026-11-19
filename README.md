@@ -4,6 +4,20 @@
 
 它属于 [Teaching Works Lab 课程教学 Skill 体系](https://github.com/Teaching-Works-Lab)，由 `training-program-skill-factory` 生成，可作为 `course-teaching-workflows` 编制课程基座和课程大纲时的可选培养方案依据。**本仓库保留原始 DOCX/PDF 作为证据，属内部私有资料，未做公开匿名化。**
 
+## WorkBuddy 安装（Skill）
+
+本仓库根目录的 `SKILL.md` 即 WorkBuddy Skill 入口，直接克隆到 WorkBuddy 的 skills 目录即可使用：
+
+```bash
+git clone https://github.com/Teaching-Works-Lab/vehicle-engineering-syllabus.git ~/.workbuddy/skills/vehicle-engineering-syllabus
+```
+
+保留目录结构，不要单独复制 `SKILL.md`——`references/`、`data/`、`scripts/` 都是 Skill 的组成部分。安装后无需重启或注册，下次对话即可通过 `@skill:vehicle-engineering-syllabus` 显式调用，或由 WorkBuddy 按 Skill 描述自动选择。
+
+运行环境：依赖 Python 3.12 与 `jsonschema`；校验/查询入口是 `scripts/curriculum.py`。
+
+WorkBuddy 通过 `~/.workbuddy/skills/` 目录发现 Skill，不使用 Codex Marketplace；两种方式可并存，互不干扰。
+
 ## 适合做什么
 
 - 按课程名称或课程代码查询学分、学时、学期、考核方式与承担单位；
